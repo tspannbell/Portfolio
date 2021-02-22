@@ -1,0 +1,16 @@
+.site-footer
+{
+  background-color:#000;
+  line-height:24px;
+  color:#737373;
+  font-size: 10px;
+    text-align: center;
+    justify-content: center;
+   
+}
+  .social {
+    width: 25px;
+    height: 25px;
+    justify-content: center;
+   
+  }

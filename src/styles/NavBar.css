@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .NavList {
+    overflow:hidden;
+    background-color: #000;
+  }
+  .navBtn{
+      float: right;
+       min-width: 1%;
+     height: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 46px;
+    background-color: #0d806c;
+    color: #fefefe;
+  }
+  .navBtn:hover {
+    background-color: #a03561;
+    color: #fefefe;
+  }
+  
+    a {
+      display: block;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      font-size: 17px;
+     
+    }
+      a:hover {
+        color: #ffffff;
+      }
+
+  .active {
+    background-color: #ddd;
+    color: white;
+  }
+ .linkBtn {
+     margin: 0px 5px 5px 10px;
+      float: left;
+    min-width: 1%;
+     height: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 0px;
+    background-color: #ffffff;
+    color: #fefefe;
+  }
+  .linkBtn:hover {
+    background-color: #68723b;
+    color: #fefefe;
+  }
+  
+  
+  .NavList .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .NavList a{
+      display: none;
+    }
+    .NavList a.icon {
+      float: left;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .NavList.responsive {position: relative;}
+    .NavList.responsive .icon {
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+    .NavList.responsive a:not(:last-child){
+      position:relative;
+      top:52px;
+      float: none;
+      text-align: left;
+      display: block;
+    }
+    .NavList{
+      overflow-y:scroll;
+    }
+  }
+  li{
+    font-size:15px;
+  }

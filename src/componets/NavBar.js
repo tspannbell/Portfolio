@@ -6,9 +6,9 @@ class Navbar extends React.Component {
     render() {
       return (
         <div className ="NavList">
-              <button className="navBtn"> <Link to="/Contact">Contact Me!</Link></button> 
-              <button className="navBtn"><Link to="/Projects">Check out my Projects!</Link>  </button>
-              <button className="navBtn"> <Link to="/">Who am I?</Link></button>
+          <Link className="navBtn" to="/">Who am I?</Link>
+         <Link className="navBtn" to="/Projects">Check out my Projects!</Link>
+          <Link className="navBtn" to="/Contact">Contact Me!</Link>
               
               <a className="words" href="https://www.github.com/tspannbell">
                   <img class="linkBtn" src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/github_square_black-512.png" alt="github"></img>

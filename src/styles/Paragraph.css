@@ -5,7 +5,7 @@
 
 .header h1 {
   font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 3em;
+  font-size: 10em;
   margin-bottom: 0.2em;
   line-height: 1.2;
   color: #222
@@ -17,34 +17,26 @@
   width: 30em;
 } */
 .card-p {
-  background: #fff;
-  width: 30em;
+  background: rgba(255, 255, 255, 0.952);
+  width: 1000px;
   border-radius: 0.6em;
   margin: 7em;
-  height: 300px;
+  height: 350px;
   box-shadow: 0 13px 27px -5px hsla(240, 30.1%, 28%, 0.25), 0 8px 16px -8px hsla(0, 0%, 0%, 0.3), 0 -6px 16px -6px hsla(0, 0%, 0%, 0.03);
   transition: all ease 200ms;
-  /* margin: 50px 0px 0px  450px; */
+  margin: 0px 0px 150px  250px;
    position: relative;
-    top: -20px;
-    float: left;
+    /* top: -20px;
+    float: left; */
 }
 
-/* .card:hover {
-  transform: scale(1.03);
-  box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12), 0 8px 32px -8px hsla(0, 0%, 0%, 0.14), 0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
-} */
 
-/* .card img {
-  width: 100%;
-  object-fit: cover;
-} */
 
 .card h2 {
   color: #222;
   margin-top: -0.2em;
   line-height: 1.4;
-  font-size: 1.3em;
+  font-size: 10em;
   font-weight: 500;
   font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
   transition: all ease-in 100ms;

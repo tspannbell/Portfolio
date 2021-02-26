@@ -7,9 +7,9 @@ class Hero extends React.Component {
         return (
             <div className='hero-container'>
                 <video src='/videos/Ink.mp4' autoPlay loop muted />
-                <img className="pic" src="/pic/port.jpg" alt="W3Schools.com"></img>
+                <img className="pic" src="/pic/port.jpg" alt="Profile Pic"></img>
                 <h1 className="name">Torren Spann-Bell</h1>
-                <p>Road to Hire Apprentice </p>
+                <p>Aspiring Front-End Developer </p>
             </div>
 
         );
